@@ -19,13 +19,13 @@ app.post("/form", (req, res) => {
     text: `${req.fields.message}`,
   };
 
-  mailgun.messages().send(data, (error, body) => {
-    if (error) {
-      res.status(400).json({ error: error.message });
-    } else {
-      res.status(200).json({ message: "Données reçues, mail envoyé" });
-    }
-  });
+  //   mailgun.messages().send(data, (error, body) => {
+  //     if (error) {
+  //       res.status(400).json({ error: error.message });
+  //     } else {
+  //       res.status(200).json({ message: "Données reçues, mail envoyé" });
+  //     }
+  //   });
 });
 
 app.all("*", (req, res) => {
