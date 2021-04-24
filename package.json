@@ -1,0 +1,27 @@
+{
+  "name": "form-contact-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "mailgun-js": "^0.22.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiovanniCignetti/form-back-gio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiovanniCignetti/form-back-gio/issues"
+  },
+  "homepage": "https://github.com/GiovanniCignetti/form-back-gio#readme"
+}
