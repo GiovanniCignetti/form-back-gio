@@ -2,9 +2,9 @@ require("dotenv").config();
 const express = require("express");
 const formidable = require("express-formidable");
 const app = express();
-// const cors = require("cors");
+const cors = require("cors");
 app.use(formidable());
-// app.use(cors());
+app.use(cors());
 
 const mailgun = require("mailgun-js")({
   apiKey: process.env.API_KEY,
